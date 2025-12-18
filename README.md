@@ -37,8 +37,8 @@ To install LUNAR, please follow the steps below:
 
 1. Clone the repository:
 ```commandline
-git clone https://github.com/fffffsssss/AI4Loc.git
-cd AI4Loc
+git clone https://github.com/Li-Lab-SUSTech/LUNAR.git
+cd LUNAR
 ```
 
 2. Create a new conda environment:
