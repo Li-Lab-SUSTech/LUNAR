@@ -32,7 +32,7 @@ def segment_local_max_beads(params_dict: dict) -> dict:
 
     images_bg_filtered = skimage.filters.gaussian(np.mean(images_bg, axis=0), sigma=filter_sigma)
     peak_coords = skimage.feature.peak_local_max(images_bg_filtered,
-                                                 min_distance=int(roi_size*0.75),
+                                                 min_distance=int(roi_size*0.5),
                                                  # threshold_rel=threshold_rel,
                                                  threshold_abs=threshold_abs,
                                                  exclude_border=True)

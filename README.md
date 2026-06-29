@@ -1,13 +1,12 @@
 
 https://github.com/user-attachments/assets/1ad2210c-da95-45f6-ab59-27d5647b267a
-# AI4Loc
-Artificial intelligence for single molecule localization microscopy (SMLM), 
-this is a framework for developing deep learning based 3D localization algorithms.
 
 # LUNAR: Localization Using Neural-physics Adaptive Reconstruction
-This is the official implementation of the paper 
-"Aberration-aware 3D localization microscopy via self-supervised neural-physics learning", 
-distributed as a part of the AI4Loc framework.
+
+This repository contains the official implementation of the paper ["Aberration-aware 3D localization microscopy via self-supervised neural-physics learning"](https://www.nature.com/articles/s41467-026-73045-9), published in *Nature Communications* (2026).
+
+If you find this repository useful for your research, please cite:  
+Fu, S., Shi, W., Katrukha, E.A. et al. *Aberration-aware 3D localization microscopy via self-supervised neural-physics learning*. *Nature Communications* (2026). https://doi.org/10.1038/s41467-026-73045-9
 
 A brief video introduction to the characteristics of LUNAR:
 https://github.com/user-attachments/assets/1ad2210c-da95-45f6-ab59-27d5647b267a

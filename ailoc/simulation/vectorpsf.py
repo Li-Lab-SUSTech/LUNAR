@@ -893,6 +893,8 @@ class VectorPSFTorch(VectorPSF):
         Returns:
             torch.Tensor: PSFs, unit photons
         """
+        if not hasattr(self, "device"):
+            self.device = x.device
 
         n_mol = x.shape[0]
         if n_mol == 0:
